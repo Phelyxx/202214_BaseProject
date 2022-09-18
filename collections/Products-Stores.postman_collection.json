@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a679ca4f-093d-4028-971f-3358a8b5173e",
+		"_postman_id": "5248e447-75e7-4ca0-915e-9cc7736bc253",
 		"name": "Products-Stores",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17534101"
@@ -49,11 +49,15 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/{{store_id_1}}",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/{{store_id_1}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -114,11 +118,15 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/00000000-0000-0000-0000-000000000000",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/00000000-0000-0000-0000-000000000000",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -179,11 +187,15 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/00000000-0000-0000-0000-000000000000/stores/{{store_id_1}}",
+							"raw": "http://localhost:3000/api/v1/products/00000000-0000-0000-0000-000000000000/stores/{{store_id_1}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"00000000-0000-0000-0000-000000000000",
 								"stores",
@@ -239,11 +251,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/{{store_id_1}}",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/{{store_id_1}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -304,11 +320,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/00000000-0000-0000-0000-000000000000",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/00000000-0000-0000-0000-000000000000",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -369,11 +389,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/00000000-0000-0000-0000-000000000000/stores/{{store_id_1}}",
+							"raw": "http://localhost:3000/api/v1/products/00000000-0000-0000-0000-000000000000/stores/{{store_id_1}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"00000000-0000-0000-0000-000000000000",
 								"stores",
@@ -434,11 +458,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/{{store_id_2}}",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/{{store_id_2}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -493,11 +521,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores"
@@ -556,11 +588,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/00000000-0000-0000-0000-000000000000/stores",
+							"raw": "http://localhost:3000/api/v1/products/00000000-0000-0000-0000-000000000000/stores",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"00000000-0000-0000-0000-000000000000",
 								"stores"
@@ -639,11 +675,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores"
@@ -727,11 +767,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores"
@@ -815,11 +859,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/products/00000000-0000-0000-0000-000000000000/stores",
+							"raw": "http://localhost:3000/api/v1/products/00000000-0000-0000-0000-000000000000/stores",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"00000000-0000-0000-0000-000000000000",
 								"stores"
@@ -872,11 +920,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/{{store_id_2}}",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/{{store_id_2}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -937,11 +989,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/00000000-0000-0000-0000-000000000000/stores/{{store_id_2}}",
+							"raw": "http://localhost:3000/api/v1/products/00000000-0000-0000-0000-000000000000/stores/{{store_id_2}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"00000000-0000-0000-0000-000000000000",
 								"stores",
@@ -1002,11 +1058,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/00000000-0000-0000-0000-000000000000",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/00000000-0000-0000-0000-000000000000",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -1067,11 +1127,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/products/{{product_id}}/stores/{{store_id_1}}",
+							"raw": "http://localhost:3000/api/v1/products/{{product_id}}/stores/{{store_id_1}}",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products",
 								"{{product_id}}",
 								"stores",
@@ -1096,7 +1160,7 @@
 					"script": {
 						"exec": [
 							"var data = pm.response.json()\r",
-							"pm.globals.set(\"store_id_2\", data.id);\r",
+							"pm.globals.set(\"store_id_1\", data.id);\r",
 							"\r",
 							"pm.test(\"Status code is 201\", function () {\r",
 							"   pm.response.to.have.status(201);\r",
@@ -1145,11 +1209,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/stores",
+							"raw": "http://localhost:3000/api/v1/stores",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"stores"
 							]
 						}
@@ -1220,11 +1288,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/products",
+							"raw": "http://localhost:3000/api/v1/products",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
+								"api",
+								"v1",
 								"products"
 							]
 						}
