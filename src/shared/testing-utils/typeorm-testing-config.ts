@@ -1,5 +1,5 @@
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { ProductEntity } from '../../product/product.entity';
+import { CoffeEntity } from '../../coffe/coffe.entity';
 import { StoreEntity } from '../../store/store.entity';
 
 export const TypeOrmTestingConfig = () => [
@@ -7,9 +7,9 @@ export const TypeOrmTestingConfig = () => [
    type: 'sqlite',
    database: ':memory:',
    dropSchema: true,
-   entities: [ProductEntity, StoreEntity],
+   entities: [CoffeEntity, StoreEntity],
    synchronize: true,
    keepConnectionAlive: true
  }),
- TypeOrmModule.forFeature([ProductEntity, StoreEntity]),
+ TypeOrmModule.forFeature([CoffeEntity, StoreEntity]),
 ];
